@@ -4,7 +4,7 @@ Credit to Sourabh Bajaj for Template.
 
 ### Preview
 
-![Resume Screenshot](/tkunke_resume.pdf)
+(/tkunke_resume.pdf)
 
 ### License
 
