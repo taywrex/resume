@@ -40,7 +40,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-7pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -59,7 +59,7 @@
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{5pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -78,7 +78,7 @@
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -97,20 +97,8 @@
   \href{https://linkedin.com/in/tkunke/}{https://linkedin.com/in/tkunke/} & Mobile : \href{tel:(541) 760-1364}{(541) 760-1364} \\
 \end{tabular*}
 
-
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, Georgia}
-      {Master of Science in Mechanical Engineering;  GPA: 3.71}{August 2015 -- July 2017}
-    \resumeSubheading
-      {Gonzaga University}{Spokane, Washington}
-      {Bachelor of Science in Mechanical Engineering;  GPA: 3.93}{August 2011 -- May 2015}
-  \resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------------
+%-----------EXPERIENCE----------------
+\vspace{-5pt}
 \section{Experience}
   \resumeSubHeadingListStart
 
@@ -146,40 +134,34 @@
       {Space Exploration Technologies}{Hawthorne, California}
       {Test Automation Engineer I/II}{August 2017 - July 2020}
       \resumeItemListStart
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
+        	\item{Responsible for the design, integration, and validation of component testing hardware for flight-like acceptance, development, and qualification testing programs.}
+	\item{Designed and constructed high flow, thermally conditioned pressurized helium test facility for state-of-the-art rocket stage vent valves, enabling cost savings of over \$500,000 annually.}
+	\item{Worked with vendors to supply high quality COTS solutions to ground support equipment.}
+	\item{Investigated Dragon 2 in-flight abort static fire anomaly with small team of skilled technicians, resulting in rapid diagnosis of system-related faults which guided efforts in system redesign.}
+	\item{Analyzed heat transfer performance in both cooling and heating applications, utilizing pressurized and 			unpressurized heat exchangers with liquid nitrogen and thermal oil heat transfer fluids.}
+	\item{Supported ground hardware teams with analysis and design of systems to meet strict flight requirements for testing while ensuring development programs could advance at the required pace.}
+	\item{Designed and commissioned a 20 ksi pressure system to safely and efficiently test Raptor and Starship flight hardware with goal of Starship orbital flights in 2020.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Georgia Institute of Technology}{Atlanta, Georgia}
       {Research and Teaching Assistant}{August 2015 - July 2017}
       \resumeItemListStart
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
-        \resumeItem{Filler}
-          {Filler}
+        \item{Designed an air-cooled condenser wind tunnel test facility to study the impacts of dynamically unstable oscillating reeds on air-side heat transfer performance.}
+        \item{Developed test section and testing procedure to evaluate heat transfer enhancement and pressure drop penalty associated with novel reed design.}
+        \item{Incorporated empirical data into a bespoke heat transfer analysis code to assess overall power plant efficiency improvement.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
+%-----------EDUCATION-----------------
+\section{Education}
+    \resumeHeading
+      {Georgia Institute of Technology}{Atlanta, Georgia}
+      {Master of Science in Mechanical Engineering;  GPA: 3.71}{August 2015 -- July 2017}
+    \resumeHeading
+      {Gonzaga University}{Spokane, Washington}
+      {Bachelor of Science in Mechanical Engineering;  GPA: 3.93}{August 2011 -- May 2015}
 
 %-----------PROJECTS-----------------
 \section{Core Competencies}
@@ -205,7 +187,6 @@
 %    }
 %  \resumeSubHeadingListEnd
 
-pdflatex file
 
 %-------------------------------------------
 \end{document}
